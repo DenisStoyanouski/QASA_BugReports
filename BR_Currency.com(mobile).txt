@@ -1,0 +1,70 @@
+Bug_27
+
+Title: Create Account without ‘Create Account’ button
+
+Precondition: 
+
+Environment: 
+
+1. 	Samsung A40 Android 10
+ 	
+Steps:
+1 Open “Currency” application.
+2 Tap on Create account
+3  Enter valid email ( example: hzpyajnic@emlhub.com)
+4  Enter valid password in field (example: “12345qwert”)
+5  Tap the “Done” button on the keyboard.
+
+ER: Keyboard disappears
+AR: Appear next step “passcode”.
+========================================================
+Bug_29
+
+Title: field “First name” allow number and special symbols
+
+Precondition: Create account, Log in
+
+ Environment:
+
+1. 	Samsung A40 Android 10
+Steps:
+1 Open menu ‘more’
+2 Tap on ‘Account status’;
+3  Tap on ‘Register’;
+4  Choose country of residents ( e.g. Poland)
+5  Tap the “Continue” button 
+6  Choose your resident address (e.g. Warszawa etc.)
+7 Tap the “Continue” button 
+8 Enter First name (e.g. 12345qwert+*/@)
+9 Enter Last name (e.g. 12345qwert+*/@)
+10  Tap the “Continue” button
+
+
+
+ER:  Pop-up window with message about unacceptable value
+AR: Open next step ‘Identity verification’
+========================================================
+Bug_33
+Title: Photo in Upload ID / ID card cannot be uploaded
+Precondition:  Create account, Log in
+Environment: Samsung A40 Android 10
+Steps:
+
+  1. Open the application
+  2. Tap on ‘More’
+  3. Tap on ‘Account status’’
+  4. Tap on ‘Upload ID’
+  5. Tap on ‘ID card’
+  6. Tap on ‘Photo on front’ 
+  7. Tap ‘Take photo’ 
+  8. Make photo
+  9. Tap ‘Done’
+
+ER: Photo is uploaded for verification.
+
+AR: Photo does not upload  (5/5)
+
+Reproducibility: 5/5
+ 
+ 
+

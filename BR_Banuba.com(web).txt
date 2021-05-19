@@ -1,0 +1,73 @@
+№: 3
+Title: Menu <Contact Us>  field <Phone number > Combobox <Code> 
+Precondition:
+
+Environment: PC, Google Chrome Версия 90.0.4430.93, Windows 10 (x64), Resolution 1366x768
+
+Steps:1. Open https://www.banuba.com/facear-sdk/face-filters
+		 https://www.banuba.com/solutions/e-commerce/ar-store
+		 https://www.banuba.com/solutions/ar-video-conferencing
+		 https://www.banuba.com/solutions/ar-photo-booth
+		 https://www.banuba.com/solutions/touchless-user-interface
+		 https://www.banuba.com/technology/webar
+		 https://www.banuba.com/company
+		 https://www.banuba.com/careers
+		 https://www.banuba.com/press
+		
+		2. Scroll down to Contact Us or click <Contact Us> button
+
+ER: Combobox  <Code> height is more the other fields (50px)
+AR: All fields have the same height (40px)
+
+Attachments:
+=======================================================
+№: 15
+Title: <GET FREE TRIAL>button on https://www.banuba.com/facear-sdk/beauty-ar 
+Precondition: 
+
+Environment:PC, Google Chrome Версия 90.0.4430.93, Windows 10 (x64) 
+
+Steps: 	1. open https://www.banuba.com/facear-sdk/beauty-ar
+		2. Scroll down to “Virtual beautiful experience”
+		3. Click <GET FREE TRIAL> button
+
+ER: Link to <Contact Us>
+AR: Reload page
+
+Attachments:
+=======================================================
+№: 17
+Title: <GET FREE TRIAL>button on https://www.banuba.com/facear-sdk/beauty-ar 
+Precondition: (условия, входные данные)
+
+Environment: PC, Google Chrome Версия 90.0.4430.93, Windows 10 (x64) 
+
+Steps: 	1. open https://www.banuba.com/facear-sdk/beauty-ar
+		2. Scroll down to “Why banuba”
+		3. Click <GET FREE TRIAL> button
+
+ER: Link to <Contact Us>
+AR: Reload page
+
+
+Attachments:
+=======================================================
+№: 18
+
+Title: Link on Facebook on page “Careers”  is not available 
+Precondition: (условия, входные данные)
+
+Environment: PC, Google Chrome Версия 90.0.4430.93, Windows 10 (x64) 
+
+Steps: 	1. open https://www.banuba.com/careers
+		2. Scroll down to “Join us here”
+		3. Click <Like us on Facebook> button
+
+ER: Open the page on Facebook
+
+AR: Open message “Эта страница недоступна”
+
+
+Attachments:
+
+===================================================
